@@ -13,7 +13,7 @@ providers:
     exposedByDefault: false
 
 certificatesResolvers:
-  http:
+  http12:
     acme:
       email: fneilnakrnai64@gmail.com
       storage: acme.json
